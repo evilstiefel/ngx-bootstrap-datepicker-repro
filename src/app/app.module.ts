@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { DatepickerModule } from 'ngx-bootstrap/datepicker';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,7 @@ import { DatepickerModule } from 'ngx-bootstrap/datepicker';
   ],
   imports: [
     BrowserModule,
-    DatepickerModule.forRoot(),
+    BsDatepickerModule.forRoot(),
     BrowserAnimationsModule
   ],
   providers: [],
